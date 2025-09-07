@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000/research/research"  # matches backend
+API_URL = "https://ai-research-agent.onrender.com/research/research"
+
 
 st.title("AI Agent")
 
